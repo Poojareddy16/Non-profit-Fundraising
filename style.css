@@ -1,0 +1,93 @@
+body{
+    background-color: #bc7790;
+    background-image: linear-gradient(to left, rgb(183, 79, 105) , rgb(241, 205, 216));
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color:#555;
+}
+
+li {
+float: right;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 20px;
+font-size: 22px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #b23d68;
+}
+.avatar {
+vertical-align: middle;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+float: left;
+padding-left: 20px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+div.container{
+    max-width: 800px;
+    font-size: 26px;
+    background-color: whitesmoke;
+    padding: auto;
+    border-radius: 25px;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text{
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 900px;
+    border-radius: 25px;
+    margin-top: 15px;
+    background-color: #e1adc0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div.journey{
+    max-width: 900px;
+    max-height: 670px;
+    padding-bottom: 30px;
+}
+.journey img{
+    object-fit: contain;
+    max-width: 900px;
+    max-height: 650px;
+    border-radius: 25px;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: transform 0.3s ease;
+}
+.journey img:hover{
+    transform: scale(1.1);
+}
+.contacts{
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    opacity: 0.9;
+}
+footer{
+    background-color: #be6283;
+}
+.contacts i:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+

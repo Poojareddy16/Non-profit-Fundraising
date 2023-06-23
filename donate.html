@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #bc7790;
+    background-image: linear-gradient(to left, rgb(183, 79, 105) , rgb(241, 205, 216));
+    
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    column-gap: 10px;
+}
+.product {
+      width: 300px;
+      margin: 10px;
+      padding: 10px;
+      display: grid;
+      justify-content: center;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-align: center;
+      background-color: #fff;
+    }
+    
+.product.image img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 3px black;
+    opacity: 0.9;
+    transition: transform 0.3s ease;
+}
+
+.product.image img:hover {
+    opacity: 1;
+    border: 1px solid #777;
+  transform: scale(1.1);
+}
+
+    .product img {
+      width: 250px;
+      height: 300px;
+      margin-bottom: 10px;
+      object-fit: cover;
+      align-items: center;
+      justify-content: center;
+    }
+    .product h3 {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    .button {
+      height: 7px;
+      width: 15px;
+      justify-content: center;
+    }
+    .container{
+        align-items: center;
+        justify-content: center;
+        margin-left: 50px;
+        margin-right: 50px;
+
+    }
+    .contacts{
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    opacity: 0.9;
+}
+footer{
+    background-color: #be6283;
+}
+.contacts i:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+    </style>
+</head>
+<body>
+    <header><center><h3 style="font-size: 28px; background-color:  #cd8fa6; padding: 10px; color: black; font-size: 30px;border-radius: 25px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"><b><i>Donate and Save lives</i></b></h3></center></header>
+        <center><div class="item">
+            <img src="donate.jpg" alt="image" style="max-width: 900px; border-radius: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        </div></center>
+        <div class="gallery">
+            <div class="product">
+                <img src="dono1.jpg" alt="Image 1">
+                
+                <center><button onclick="window.location.href='https://milaap.org/fundraisers/support-rajeshwar-khose'" style="height: 25px; width: 90px;"><h3>Donate</h3></button></center>
+                
+              </div>
+          
+              <div class="product">
+                <img src="dono2.jpg" alt="image 2">
+               
+                <center><button onclick="window.location.href='https://milaap.org/fundraisers/support-uppala-hlns-anjali'" style="height: 25px; width: 90px;"><h3>Donate</h3></button></center>
+              </div>
+          
+              <div class="product">
+                <img src="dono3.jpg" alt="bags">
+               
+               <center><button onclick="window.location.href='https://milaap.org/fundraisers/support-reshu-marwah'" style="height: 25px; width: 90px; justify-content: center; text-align: center;"><h3>Donate</h3></button></center> 
+              </div>
+              <div class="product">
+                <img src="dono4.jpg" alt="Image 1">
+                
+                <center><button onclick="window.location.href='https://milaap.org/fundraisers/support-street-dogs-and-cats-10'" style="height: 25px; width: 90px;"><h3>Donate</h3></button></center>
+              </div>
+          
+              <div class="product">
+                <img src="dono5.jpg" alt="image 2">
+               
+                <center><button onclick="window.location.href='https://milaap.org/fundraisers/support-venkata-subbalakshmi-devi-goda'" style="height: 25px; width: 90px;"><h3>Donate</h3></button></center>
+              </div>
+          
+              <div class="product">
+                <img src="dono6.jpg" alt="bags">
+               
+                <center><button onclick="window.location.href='https://milaap.org/fundraisers/support-subho-das123'" style="height: 25px; width: 90px;"><h3>Donate</h3></button></center>
+              </div>
+              <div class="product">
+                <img src="dono7.jpg" alt="bags">
+               
+                <center><button onclick="window.location.href='https://milaap.org/fundraisers/donate-oldage-home-india-helpage-elderly-poor'" style="height: 25px; width: 90px;"><h3>Donate</h3></button></center>
+              </div>
+        </div>
+
+        <div>
+            <center><h3 style="font-size: 34px; background-color:  #cd8fa6; padding: 10px; color: black; font-size: 30px;border-radius: 25px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"><b><i>THANK YOU!</i></b></h3></center>
+       </div>
+
+       <footer>
+        <center><div class="contacts">
+        <b style="font-size: 24px;"><i>Find us on:</i></b><br><br>
+        <i class="fa fa-instagram" style="font-size: 20px;"> Instagram</i><br>
+        <i class="fa fa-linkedin" style="font-size: 20px;"> Linkedin</i><br>
+        <i class="fa fa-envelope" style="font-size: 20px;"> abc@gmail.com</i><br>
+        <i class="fa fa-twitter" style="font-size: 20px;"> Twitter</i></div>
+        <div class="bottom"><i class="fa fa-copyright" style="font-size:18px; padding-bottom: 5px;">All rights reserved.</i></div></center>
+      </footer>
+</body>
+</html>
